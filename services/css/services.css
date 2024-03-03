@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prosto+One&family=Roboto:wght@300;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 5000px;
+  background: linear-gradient(177.34deg, #050301 -30.15%, #120a01 92.85%);
+}
+
+/*Main*/
+.main {
+  width: 100%;
+}
+
+.main-div {
+  width: 1140px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  margin: 110px auto auto;
+}
+
+.main-text1 {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e47500;
+}
+
+.main-text2 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-text3 {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-text4 {
+  color: #ffffff;
+}
+
+.main-div2 {
+  width: 1140px;
+  height: 200px;
+  background: #1c140f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.main-user {
+  width: 180px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-line {
+  height: 150px;
+  border: 1px solid #eeeff2;
+}
+
+.main-div-text1 {
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main-div-text2 {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+/*Header*/
+.header {
+  width: 100%;
+  height: 100px;
+  padding-right: 55px;
+  padding-left: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  width: 674px;
+  height: 42px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header-link:hover {
+  width: 39px;
+  border-bottom: 4px solid #dc7000;
+  border-radius: 2px;
+  padding-bottom: 5px;
+}
+
+.contact {
+  width: 132px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(250, 144, 33, 1);
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+/*Hero-Video*/
+.hero-video {
+  width: 1200px;
+  height: 368px;
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.hero-div {
+  width: 428px;
+  height: 362px;
+}
+
+.hero-text1 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.hero-text2 {
+  width: 427px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.hero-text3 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.tick-img {
+  margin-top: -10px;
+}
+
+.hero-texts {
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Info-Game1,2,3*/
+.info-game {
+  width: 1170px;
+  height: 489px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 200px auto auto;
+}
+
+.info-game-div {
+  width: 523px;
+  height: 464px;
+}
+
+.info-game-text1 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 43px;
+}
+
+.info-game-text2 {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.info-game-btn {
+  width: 177px;
+  height: 50px;
+  background: #DC7000;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/*Reviews*/
+.reviews {
+  width: 100%;
+  height: 738px;
+  background: #1C140F;
+  margin-top: 168px;
+  padding-top: 88px;
+}
+
+.reviews-text {
+  width: 470px;
+  height: 180px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviews-text1 {
+  width: 420px;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reviews-text2 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reviews-div {
+  width: 1300px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.reviews-box {
+  width: 400px;
+  height: 230px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.reviews-box:hover {
+  border: 2px solid #DC7000;
+}
+
+.reviews-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-user-div {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviews-text3 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #ffffff;
+}
+
+.reviews-text4 {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #4F5665;
+}
+
+.reviews-text5 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/*Subscribe-News*/
+.subscribe-news{
+    width: 100%;
+    padding-top: 105px;
+    padding-left: 165px;
+    padding-right: 100px;
+}
+
+.subscribe-news-text1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 200px;
+    margin-bottom: 32px;
+}
+
+.subscribe-news-text2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 74px;
+}
+
+.subscribe-email {
+    width: 100%;
+    height: 189px;
+    background: #1C140F;
+    padding: 40px 50px 42px 56px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe-news-text3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.subscribe-news-text4 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.email-btn-div {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.email-input {
+    width: 386px;
+    height: 48px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+}
+
+.email-btn {
+    width: 105px;
+    height: 37px;
+    background: #DC7000;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-right: 7px;
+}
+
+/*Footer*/
+.footer {
+    width: 100%;
+    background: #070707;
+    border: 1px solid black;
+    margin-top: 200px;
+    padding-top: 79px;
+}
+
+.footer-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 101px;
+    padding-right: 120px;
+}
+
+.footer-text1 {
+    width: 372px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer-text2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.footer-box2 {
+    width: 100px;
+    margin-left: 78px;
+}
+
+.footer-text3 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-box3 {
+    width: 282px;
+    margin-left: 140px;
+}
+
+.footer-text4 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-text5 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 11px;
+}
+
+.social-medias {
+    width: 250px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 83px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #D2D2D2;
+    margin-top: 53px;
+}
+
+.footer-text6 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 29px;
+    padding-bottom: 29px;
+}
